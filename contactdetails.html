@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <style media="screen">
+    body {
+      margin: 2%;
+      color: #63707e;
+      background-color: #f2f6f5;
+    }
+    input.inputbox {
+      width: 170px;
+    }
+
+    select {
+      width: 175px;
+    }
+  </style>
+  <title>Ohad Matalon Contact Details</title>
+</head>
+
+<body>
+  <h3>
+    My Contact Details:
+  </h3>
+  <table>
+    <tr>
+      <td>email:</td>
+      <td> ohad.matalon@gmail.com</td>
+    </tr>
+    <tr>
+      <td> cell:</td>
+      <td>+972524465032</td>
+    </tr>
+    <tr>
+      <td> address:</td>
+      <td>Hashoshanim 6, Ramat-Gan, Israel</td>
+    </tr>
+  </table>
+  <p>
+    <form class="" action="mailto:ohad.matalon@gmail.com" method="post" enctype="text/plain">
+
+
+      Your Name:<br>
+      <input type="text" name="name" class="inputbox" /> <br>
+      Your email:<br>
+      <input type="email" name="email" class="inputbox" /> <br>
+      Your Telephone Number:<br>
+      <input type="tel" name="telephone" class="inputbox" /> <br>
+      Your Birthday date:<br>
+      <input type="date" name="datetime" class="inputbox" /> <br>
+      Proffession:<br>
+      <select name="proffession">
+        <option value="Photographer">Photographer</option>
+        <option value="Designer">Designer</option>
+        <option value="Curator">Curator</option>
+        <option value="Collector">Collector</option>
+        <option value="Web-Developer">Web Developer</option>
+        <option value="Student">Student</option>
+        <option value="Other">Other</option>
+
+      </select><br><br>
+      Your Message:<br>
+      <textarea name="your-message" rows="8" cols="30"></textarea><br>
+      <input type="submit" />
+      <input type="reset">
+    </form>
+  </p>
+</body>
+
+</html>

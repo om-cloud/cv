@@ -1,0 +1,43 @@
+
+  div.tables>table {
+    float: left;
+  }
+
+  body {
+    background-color: #f2f6f5;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  h3{
+    color:#63707e;
+  }
+h2{
+color: #63707E;
+}
+td{
+color: #63707E;
+}
+  p {
+    display: block;
+
+  }
+  td.year {
+    width:87px;
+    vertical-align: top;
+  }
+hr{
+border-style:none;
+text-align: left;
+margin-left: 0;
+border-top: 4px dotted #e0e0e0;
+width:12%;
+background-repeat: repeat-x;
+}
+  p.Website{
+    text-decoration: none;
+    color: #696969;
+  }
+
+  p.website:hover {
+    color: #93b5b3;
+  }
